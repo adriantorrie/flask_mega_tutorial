@@ -6,7 +6,7 @@ This repo is to document my effort working through [The Flask Mega Tutorial](htt
 
 I'm doing this on Windows (I'm sorry if that made you cry).
 
-# Setup
+# Setup virtual environment
 
 * [Install Miniconda](http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install)
 
@@ -16,6 +16,8 @@ I'm doing this on Windows (I'm sorry if that made you cry).
   * `activate flask_mega`
   * `where python`
   * Write down the location of the `python.exe` path for your new `flask_mega` environment, it should be something similar to: `C:\Users\<user>\MiniConda3\envs\flask_mega\python.exe`
+
+# Setup ST3 to work with virtual environment
 
 * Create a folder (replace `<user>` with your user name)
   * `C:\Users\<user>\AppData\Roaming\Sublime Text 3\Packages\flask_mega` 
@@ -35,3 +37,13 @@ I'm doing this on Windows (I'm sorry if that made you cry).
 
 * Close and reopen ST3
   * Select from the ST3 menu `Tools > Build System > flask_mega`
+
+# Setup ST3 packages to improve the development experience
+
+* Read the [installation instructions](https://github.com/SublimeLinter/SublimeLinter-flake8#installation) for `SublimeLinter-flake8` first
+* Install dependencies for `SublimeLinter-flake8`
+  * `deactivate` (exits the `flask_mega` env and reverts back to the Miniconda default env named `root`)
+  * `pip install flake8`
+  * Use the instructions for installing the package into ST3
+  * Restart ST3
+  * Press `` ctrl + ` ``
