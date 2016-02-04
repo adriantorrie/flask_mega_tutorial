@@ -1,6 +1,6 @@
 # flask_mega_tutorial
 
-** Original concept, code, and all rights associated with The Flask Mega Tutorial belong to Miguel Grinberg.
+**Original concept, code, and all rights associated with The Flask Mega Tutorial belong to Miguel Grinberg.**
 
 This repo is to document my effort working through [The Flask Mega Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) by Miguel Grinberg, using Miniconda as an environment manager (as opposed to `pyvenv` or `virtualenv`), and Sublime Text 3 (ST3) as my development environment. 
 
