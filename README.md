@@ -23,7 +23,7 @@ I'm doing this on Windows (I'm sorry if that made you cry).
 * Create a file in this folder called 
   * `flask_mega.sublime-build`
 
-* Add the following code block to the new file and save. Ensure you have forward slashes `/` (Unix style path), and double quotes `"` (JSON style quotes):
+* Add the following code block to the new file and save. Ensure you have forward slashes `/` (Unix style path), double quotes `"` (JSON style quotes), and the correct path to your `flask_mega` environment install of `python.exe`:
 
 ```json
 {
