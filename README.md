@@ -47,3 +47,7 @@ I'm doing this on Windows (I'm sorry if that made you cry).
   * Use the instructions for installing the package into ST3
   * Restart ST3
   * Press `` ctrl + ` ``
+
+### TODO
+* Anaconda (the sublime plugin NOT the data science python distribution)
+* ColorPicker
